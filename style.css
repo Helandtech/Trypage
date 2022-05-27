@@ -99,9 +99,9 @@ figure>a>img {
     border: 1px solid black;
 }
 
-figure>a>img:hover {
+/*figure>a>img:hover {
     width: 395px;
-}
+}*/
 
 figcaption {
     text-align: center;
@@ -146,7 +146,7 @@ figcaption {
 @media only screen and (max-width:475px) {
 
     figure>a>img {
-        width: 80%;
+        width: 99%;
     }
 
 
@@ -176,6 +176,16 @@ figcaption {
 @media only screen and (max-width:329px) {
     h1 {
         font-size: 200%;
+    }
+
+}
+
+
+@media only screen and (min-width:474px) {
+
+    figure>a>img:hover {
+        width: 395px;
+        margin: 0 auto;
     }
 
 }
